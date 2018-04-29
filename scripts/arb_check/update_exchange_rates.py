@@ -24,7 +24,7 @@ class FiatExchangeRates(object):
         self.host = "159.89.20.249"
         self.database_name = 'crypto_test'
         self.user = 'toby'
-        self.password = 'R1i9p1p1l9e0$'
+        self.password = '*'
         self.database = DatabaseConnect(self.host, self.database_name, self.user, self.password, self.port)
         self.database.database_connect()
         self.get_crypto_currency_id()
